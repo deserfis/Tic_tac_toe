@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Tic-Tac-Toe with pygame
 
 The old and good tic-tac-toe game :smiley:
@@ -46,3 +47,7 @@ Usar a pygame permite que todos joguem, além de proporcionar um visual mais agr
 
 - *[My first version of tic-tac-toe using python](https://github.com/itsale-o/tic-tac-toe)
 - *[Minha primeira versão do jogo da velha usando python](https://github.com/itsale-o/tic-tac-toe)
+=======
+# Tic_tac_toe
+Jogo da velha feito com interface pygame
+>>>>>>> c205fccd89ccf5e1408b51ea4ae3c58c16306d69
