@@ -17,6 +17,7 @@ O projeto foi realizado como atividade prática da disciplina de **Programação
 - 🔄 Botão de **Restart** para reiniciar a partida rapidamente
 - 🗑️ Botão de **Apagar Dados** (limpeza do histórico no banco de dados via lixeirinha)
 - 🛠️ Código aprimorado a partir de um script original inspirado, com novas funcionalidades implementadas
+- 🤖 Feito com ajuda de Inteligência Artificial
 
 ---
 
@@ -25,6 +26,7 @@ O projeto foi realizado como atividade prática da disciplina de **Programação
 - [Python 3](https://www.python.org/)
 - [Pygame](https://www.pygame.org/)
 - [SQLite3](https://www.sqlite.org/index.html)
+- [ChatGPT](https://chat.openai.com/)
 
 ---
 
