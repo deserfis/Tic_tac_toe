@@ -1,53 +1,88 @@
-<<<<<<< HEAD
-## Tic-Tac-Toe with pygame
 
-The old and good tic-tac-toe game :smiley:
+# 🕹️ Jogo da Velha com Interface Gráfica — Pygame + SQLite
 
-**The visual:**
+**Projeto de Programação II — 3º Ano IFC**
 
-<div align="center">
-  
-| The game|The winner|It's a tie!|
-|:-------:|:--------:|:---------:|
-| ![example](images/tic-tac-toe.png) | ![example](images/x-wins.png) | ![example](images/tie.png) |
+---
 
-</div>
+## 📚 Sobre o Projeto
 
-I built one tic-tac-toe game before*. That one allows the player to play against the machine, and it runs only on the terminal. This time I decided to go further and build a simple (but beautiful) board and give the chance for the players to play against each other.
+Este é um **Jogo da Velha** (Tic Tac Toe) desenvolvido com **interface gráfica usando Pygame** e integração com **banco de dados SQLite**.  
+O projeto foi realizado como atividade prática da disciplina de **Programação II** no 3º ano do Instituto Federal Catarinense (IFC).
 
-In order to built this, I used [pygame](https://www.pygame.org/news), a python framework for (as the name suggests) build games.
+**Principais características:**
 
-<div align="center">
-  
-![](images/pygame.png)
-  
-</div>
+- 🎮 Interface gráfica amigável e intuitiva
+- 🏆 Sistema de **placar** (registrando vitórias, empates não geram pontos)
+- 🔄 Botão de **Restart** para reiniciar a partida rapidamente
+- 🗑️ Botão de **Apagar Dados** (limpeza do histórico no banco de dados via lixeirinha)
+- 🛠️ Código aprimorado a partir de um script original inspirado, com novas funcionalidades implementadas
 
-To code this was a interesting challenge, and the final structure ended up like this:
-- defined the dimentios to the game window
-- to build a class defining the size of the board, each cell, the players, etc
-- to build various functions to define: who's turn it is, who wins, to check if anyone wins at all, etc
+---
 
-Build this using pygame, allows everyone to play, and it is visiualy nicer
+## 🚀 Tecnologias Utilizadas
 
-## Jogo da Velha com pygame
+- [Python 3](https://www.python.org/)
+- [Pygame](https://www.pygame.org/)
+- [SQLite3](https://www.sqlite.org/index.html)
 
-O bom e velho jogo da velha :smiley: (PT-BR)
+---
 
-Eu constrí um jogo da velha com python antes*. Aquela versão, permite que o jogador jogue contra a máquina e roda apenas no terminal. Desta vez, eu decidi ir um pouco além e construir um simples (mas bonito) tabuleiro e dar a chance para os jogadores jogarem uns contra os outros.
+## 🎯 Funcionalidades Detalhadas
 
-Para construit, eu usei o [pygame](https://www.pygame.org/news), uma biblioteca do python para (como o nome sugere) construção de jogos.
+| Funcionalidade | Descrição |
+|:---------------|:----------|
+| 🎮 Jogo da Velha jogável | Dois jogadores podem se enfrentar alternando as jogadas. |
+| 🏆 Placar dinâmico | O placar atualiza automaticamente com vitórias e empates registrados no SQLite. |
+| 🔄 Botão de Restart | Permite reiniciar o jogo a qualquer momento, sem precisar fechar o aplicativo. |
+| 🗑️ Botão de Apagar Histórico | Permite limpar todos os registros do placar no banco de dados com um clique. |
+| 🖌️ Interface intuitiva | Elementos gráficos amigáveis, desenhados e atualizados em tempo real. |
 
-Construir esse código foi um desafio interessante e a estrutura final ficou assim:
-- definir as dimensões da janela do game
-- construir uma classe responsável por tudo: tamanho do tabuleiro, tamanho das células, os jogadores, etc
-- construir várias funções para definir: de qual jogador é a vez, quem venceu, se há um vencedor de fato, etc
+---
 
-Usar a pygame permite que todos joguem, além de proporcionar um visual mais agradável para os jogadores
+## 🛠️ Como Rodar o Projeto
 
-- *[My first version of tic-tac-toe using python](https://github.com/itsale-o/tic-tac-toe)
-- *[Minha primeira versão do jogo da velha usando python](https://github.com/itsale-o/tic-tac-toe)
-=======
-# Tic_tac_toe
-Jogo da velha feito com interface pygame
->>>>>>> c205fccd89ccf5e1408b51ea4ae3c58c16306d69
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/seu-usuario/seu-repo.git
+```
+
+2. **Instale as dependências:**
+
+```bash
+pip install pygame
+```
+ Também instale a extensão do sqlite no vscode (local onde o jogo foi produzido)
+
+3. **Execute o jogo:**
+
+```bash
+python jogo_da_velha.py
+```
+
+---
+
+## 🎓 Créditos
+
+- Projeto desenvolvido por Clarice Malaquias Vieira como parte do curso técnico de informática no **Instituto Federal Catarinense - IFC**.
+- Script base de inspiração adaptado e aprimorado com novas funcionalidades próprias.
+
+---
+
+## 💡 Observações
+
+- O projeto é totalmente offline.
+- O banco de dados (`pontos.db`) é criado automaticamente na primeira execução.
+- Todos os dados podem ser apagados facilmente usando o botão da lixeirinha na interface.
+
+---
+
+## 🌟 Contato
+
+Quer trocar ideia sobre o projeto ou sugerir melhorias?  
+Fique à vontade para mandar mensagem!
+
+---
+
+# "Grandes programadores começam com pequenos projetos, mas com grandes ideias."
